@@ -1,0 +1,90 @@
+body {
+    font-family: 'Oswald',sans-serif;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+  }
+.Profile_pic{
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+  }
+.icon_div{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.icon_div>a{
+    margin: 10px;
+    color: #171515;
+}
+.youtube-icon{
+    color: #171515;
+}
+.youtube-icon:hover{
+    transition: 0.35s;
+    color: red;
+    
+}
+.facebook-icon{
+    color: #171515;
+}
+.facebook-icon:hover{
+    transition: 0.35s;
+    color: #3b5998;
+    
+}
+.github-icon{
+    color: #171515;
+}
+.github-icon:hover{
+    transition: 0.35s;
+    color: #171515;
+    
+}
+.linkedin-icon{
+    color: #171515;
+}
+.linkedin-icon:hover{
+    transition: 0.35s;
+    color: #0072b1;
+    
+}
+.text_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_div>h1{
+    font-size:58pt;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+footer>p{
+    margin: 0%;
+}
+.text_div>h1,.text_div>p{
+    /* margin:0 ; */
+}
+footer>p>a>i{
+    color:rgb(44, 98, 224) ;
+}
+footer>p>a>i:hover{
+    transition: 0.35s;
+    color: #102029;
+}
